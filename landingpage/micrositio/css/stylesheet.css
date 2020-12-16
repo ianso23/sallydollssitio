@@ -1,0 +1,308 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500;700&family=Ubuntu:wght@400;700&display=swap');
+
+html,body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	}
+
+body {
+	min-height: 100%;
+	background: rgb(0,0,0);
+	background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(33,32,72,1) 50%, rgba(0,0,0,1) 100%);
+}
+
+html {
+	height: 100%;
+	font-size: 10px;
+	color: #FFFFFF;
+}
+
+h1 {
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 3.6rem;
+	color: #FFFFFF;
+}
+
+h2 {
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 2.7rem;
+	color: #FFFFFF;
+}
+
+h3 {
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 2.3rem;
+	color: #FFFFFF;
+}
+
+p {
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 1.2rem;
+	color: #FFFFFF;
+}
+
+a {
+	text-decoration: none;
+}
+
+main {
+	width: 100%;
+}
+
+
+
+.micrositio-container {
+	grid-gap: 20px;
+	height: 1390px;
+	display: grid;
+	grid-template:
+		"header" 		120px /* altos de fila */
+		"tipografia" 	auto
+		"cromatica"		auto
+		"pantalla" 		auto
+		"footer"		130px
+		;
+}
+
+header {
+	text-align: center;
+	width: 100%;
+	grid-area: header;
+}
+
+header img {
+	margin-top: 20px;
+	max-width: 80px;
+}
+
+.tipografia  {
+	grid-area: tipografia;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+.tipografia h1 {
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+
+.tipografia h2 {
+	margin-bottom: 0px;
+}
+
+.tipos {
+	text-align: center;
+	margin-top: 30px;
+}
+
+.tipos p {
+	text-align: center;
+	font-size: 2rem;
+	margin-left: 5%;
+}
+
+.cromatica {
+	grid-area: cromatica;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+.cromatica h1 {
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+
+.tipo-josefin {
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+.tipo-ubuntu {
+	font-family: 'Ubuntu', sans-serif;
+}
+
+.colores img {
+	max-width: 150px;
+}
+
+.colores {
+	text-align: center;
+	float: left;
+	display: inline-block;
+	width: 50%;
+}
+
+.pantalla {
+	grid-area: pantalla;
+	margin-bottom: 50px;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+.impresiones-img img {
+	max-width: 120px;
+	transition-duration: .2s;
+	border-radius: 25px;
+}
+
+.impresiones-img img:hover {
+	transform: scale(1.06);
+}
+
+.impresiones-img {
+	text-align: center;
+	float: left;
+	display: inline-block;
+	width: 33%;
+}
+
+footer {
+	grid-area: footer;
+	background-color: #1A1A1A;
+	text-align: center;
+}
+
+footer img {
+	max-width: 60px;
+	opacity: 40%;
+	margin-bottom: 0px;
+	margin-top: 35px;
+	transition-duration: .2s;
+}
+
+footer img:hover {
+	opacity: 100%;
+	transform: scale(1.06);
+}
+
+@media (min-width: 600px) {
+
+	.micrositio-container {
+		height: 1230px;
+		grid-template:
+			"header  	 	header"		100px /* altos de fila */
+			"tipografia  	cromatica"	auto
+			"pantalla  		pantalla"	auto
+			"footer  	 	footer"		130px/
+			 auto	 		auto; /* anchos de columna */
+	}
+
+	.tipografia h1 {
+		margin-bottom: 0px;
+		margin-top: 20px;
+	}
+
+	.cromatica h1 {
+		margin-bottom: 0px;
+		margin-top: 20px;
+	}
+
+	.colores {
+		text-align: center;
+		float: left;
+		width: 100%;
+	}
+
+	.tipografia  {
+		grid-area: tipografia;
+		margin-left: 10%;
+		margin-right: 5%;
+	}
+
+	.cromatica {
+		grid-area: cromatica;
+		margin-left: 0%;
+		margin-right: 10%;
+	}
+
+	.pantalla {
+		margin-bottom: 100px;
+		margin-left: 5%;
+		margin-right: 5%;
+	}
+
+
+	.impresiones-img img {
+		max-width: 150px;
+	}
+
+}
+
+
+@media (min-width: 900px) {
+
+	.micrositio-container {
+		height: 930px;
+		grid-template:
+			"header  	 	header		header"		100px /* altos de fila */
+			"tipografia  	cromatica	pantalla"	660px
+			"footer  	 	footer		footer"		130px/
+			 33.33%	 		auto		33.33%; /* anchos de columna */
+	}
+
+	.tipografia  {
+		margin-left: auto;
+		padding-left: 20%;
+		margin-right: 5%;
+		max-width: 400px;
+	}
+
+	.tipografia h1 {
+		margin-top: 20px;
+		text-align: center;
+		margin-bottom: 30px;
+	}
+
+	.tipografia h2 {
+		text-align: center;
+	}	
+
+	.tipografia p {
+		text-align: center;
+	}	
+
+	.cromatica {
+		margin-left: 15%;
+		margin-right: 15%;
+	}
+
+	.cromatica h1 {
+		margin-top: 20px;
+		text-align: center;
+		margin-bottom: 30px;
+	}
+
+	.cromatica p {
+		text-align: center;
+	}	
+
+
+	.pantalla {
+		margin-right: 20%;
+		margin-bottom: 0px;
+	}
+
+	.pantalla h1 {
+		margin-top: 20px;
+		text-align: center;
+	}
+
+	.impresiones-img img {
+		max-width: 150px;
+	}
+
+	.impresiones-img {
+		text-align: center;
+		width: 100%;
+	}
+
+	.img-middle {
+		margin-top: 30px;
+		margin-bottom: 30px;
+	}
+
+
+}
+
+
+

@@ -1,0 +1,729 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500;700&family=Ubuntu:wght@400;700&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+
+body {
+	margin: 0px;
+	background: rgb(0,0,0);
+	background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(33,32,72,1) 50%, rgba(0,0,0,1) 100%);
+}
+
+p{
+	color: #FFFFFF;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 13px;
+}
+
+a {
+	color: #F8CF28;
+	text-decoration: none;
+}
+
+h4 {
+	color: #FFFFFF;
+}
+
+
+/*----- INICIO HEADER ----*/
+
+		header {
+			height: 100px;
+			width: 100%;
+		}
+
+		nav{
+			list-style-type: none;
+			width: 60%;
+			float: right;
+			padding-top: 15px;
+			margin-right: 5%;
+		}
+
+		.nav-li {
+			font-family: 'Josefin Sans', sans-serif;
+			font-weight:bold;
+			font-size: 20px;
+			color: #F8CF28;
+			display: block;
+			text-align: center;
+			margin-left: 1%;
+			margin-top: 10px;
+			padding-top: 15px;
+			padding-bottom: 15px;
+			padding-left: 2%;
+			padding-right: 2%;
+			text-decoration: none;
+			float: right;
+			/*tiempo de transicion en el hover.*/
+			transition: transform .2s;
+		}
+
+		.nav-li:hover {
+			/*escala de zoon en el hover.*/
+		 	transform: scale(1.1); 
+		}
+
+		.logo-header {
+			max-width: 80px;
+			margin-top: 10px;
+			margin-left: 5%;
+			float: left;
+			transition: transform .3s;
+		}
+
+		.logo-header:hover {
+		 	transform: scale(1.05); 
+		}
+
+		.current {
+			border-bottom: 2px solid #F8CF28;
+			padding-bottom: 5px;
+		}
+
+/*----- FIN HEADER ----*/
+
+
+
+
+/*----- INICIO FOOTER ----*/
+
+		footer {
+			height: 130px;
+			background-color: #1A1A1A;
+			width: 100%;
+			float: left;
+		}
+
+		.col-footer {
+			width: 33%;
+			float: left;
+			display: inline;
+		}
+
+		.col-redes {
+			width: 28%;
+			float: right;
+			display: inline;
+			margin-right: 5%;
+		}
+
+		.redes{
+			opacity: 40%;
+			margin-top: 45px;
+			max-height: 60px;
+			float: right;
+			margin-right: 1%;
+			transition: transform .3s;
+			transition: opacity .4s;
+		}
+
+		.redes:hover {
+		 	opacity: 100%;
+		 	transform: scale(1.05); 
+		}
+
+		.autor{
+			opacity: 40%;
+			margin-top: 65px;
+			text-align: center;
+			font-size: 16px;
+			color: #FFFFFF;
+			font-family: 'Josefin Sans', sans-serif;
+			transition: transform .3s;
+			transition: opacity .4s;
+		}
+
+		.autor:hover {
+			opacity: 100%;
+		 	transform: scale(1.05); 
+		}
+
+		.logo-footer {
+			max-width: 80px;
+			margin-top: 30px;
+			margin-left: 15%;
+			float: left;
+			opacity: 40%;
+			transition: transform .3s;
+			transition: opacity .4s;
+		}
+
+		.logo-footer:hover {
+		 	opacity: 100%;
+		 	transform: scale(1.05); 
+		}
+
+
+/*----- FIN FOOTER ----*/
+
+
+
+
+
+/*----- INICIO BANNERS ----*/
+
+		.banner {
+			height: 150px;
+			width: 100%;
+		}
+
+		.main-title {
+			font-size: 50px;
+			color: #F8CF28;
+			text-align: center;
+			font-family: 'Josefin Sans', sans-serif;
+			font-weight:bold;
+			margin-top: 50px;		
+		}
+
+		.subtitle {
+			font-size: 20px;
+			color: #ffffff;
+			text-align: center;
+			font-family: 'Josefin Sans', sans-serif;
+			margin-top: 30px;
+		}
+
+/*----- FIN BANNERS ----*/
+
+
+
+
+/*----- INICIO MAIN ----*/
+
+		#main-index{
+			height: 1160px;
+			width:100%;
+		}
+		#main-envios{
+			height: 940px;
+			width: 100%;
+		}
+		#main-encargos{
+			height: 1300px;
+			width:100%;
+		}
+
+		#main-galerias{
+			height: 1580px;
+			width: 100%;
+		}
+
+		#main-relevamiento {
+			height: 1680px;
+			width: 100%;
+		}
+
+		#main-diseno {
+			height: 1810px;
+			width: 100%;
+		}
+
+		#main-manual {
+			height: 1380px;
+			width: 100%;
+		}
+
+/*----- FIN MAIN ----*/
+
+
+
+
+
+/*----- INICIO SECTION ----*/
+
+		#sec-index{
+			padding-top: 50px;
+			height: 380px;
+			width:100%;
+		}
+
+		#sec-envios{
+			padding-top: 50px;
+			height: 460px;
+			width:100%;
+		}
+
+		#sec-encargos{
+			padding-top: 50px;
+			height: 820px;
+			width:100%;
+		}
+
+		#sec-galerias{
+			padding-top: 50px;
+			height: 1100px;
+			width:100%;
+		}
+
+		#sec-relevamiento {
+			padding-top: 50px;
+			height: 1200px;
+			width:100%;
+		}
+
+		#sec-diseno {
+			padding-top: 80px;
+			height: 1300px;
+			width:100%;
+		}
+
+		#sec-manual {
+			padding-top: 80px;
+			height: 900px;
+			width:100%;
+		}
+
+/*----- FIN SECTION ----*/
+
+
+
+
+
+/*----- INICIO ESPACIADORES ----*/
+
+		.small-top-margin {
+			margin-top: 30px;
+		}
+
+		.mid-top-margin {
+			margin-top: 50px;
+		}
+
+		.big-top-margin {
+			margin-top: 100px;
+		}
+
+/*----- FIN ESPACIADORES ----*/
+
+
+
+
+/*----- INICIO FORM ----*/
+
+		label {
+			font-family: 'Ubuntu', sans-serif;
+			font-weight: bold;
+			font-size: 18px;
+			color: #FFFFFF;
+		}
+
+		input {
+			margin-top: 10px;
+		}
+
+		textarea {
+			margin-top: 10px;
+		}
+
+		.first-form-part {
+			margin-top: 5px;
+		}
+
+		.form-part {
+			margin-top: 30px;
+		}
+
+		.form-part-50 {
+			margin-top: 30px;
+			width: 50%;
+			float: left;
+		}
+
+		.input-50 {
+			width : 60%;
+			padding: 5px;
+			font-family: 'Ubuntu', sans-serif;
+			font-size: 18px;
+		  	border: 3px solid #ccc;
+		  	outline: none;	
+		  	border-radius: 5px;
+		}
+
+		.input-large{
+			width: 100%;
+			padding: 5px;
+			font-family: 'Ubuntu', sans-serif;
+			font-size: 18px;
+			height: 200px;
+		  	border: 3px solid #ccc;
+		  	outline: none;
+		  	border-radius: 5px;
+		  	resize: none;
+		}
+
+		.input-normal{
+			width : 100%;
+			padding: 5px;
+			font-family: 'Ubuntu', sans-serif;
+			font-size: 18px;
+		  	border: 3px solid #ccc;
+		  	outline: none;	
+		  	border-radius: 5px;
+		}
+
+		.input-normal:focus {
+		  border: 3px solid #F8CF28;
+		  transition: 0.5s;
+		}
+
+		.input-large:focus {
+		  border: 3px solid;
+		  border-color: #F8CF28;
+		  transition: 0.5s;
+		}
+
+		.input-50:focus {
+		  border: 3px solid #F8CF28;
+		  transition: 0.5s;
+		}
+
+		.form-5050-container {
+			height: 110px;
+		}
+
+		.input-50{
+			width : 80%;
+			padding: 5px;
+			font-family: 'Ubuntu', sans-serif;
+			font-size: 18px;
+		}
+
+		.form-selector {
+			margin-top: 10px;
+		}
+
+		.boton-enviar {
+			font-size: 18px;
+			color: #212146;
+			background-color: #F8CF28;
+			font-family: 'Josefin Sans', sans-serif;
+			font-weight: bold;
+			border-radius: 8px;
+			text-decoration: none;
+			padding: 16px 32px;
+			border:none;
+			cursor: pointer;
+			transition: transform .2s;
+
+		}
+
+		.boton-enviar:hover {
+			transform: scale(1.05);
+		}
+
+/*----- FIN FORM ----*/
+
+.concurso {
+	margin-top: 50px;
+	height: 200px;
+	margin-bottom: 50px;
+	text-align: center;
+}
+
+.concurso h2 {
+	margin-bottom: 10px;
+	font-size: 40px;
+	color: #F8CF28;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+.concurso p {
+	margin-bottom: 40px;
+	font-size: 20px;
+	color: #FFFFFF;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+
+.boton-concurso {
+	margin-left: 30%;
+	margin-right: 30%;
+	text-decoration: none;
+	padding: 15px 32px;
+	background-color: #F8CF28; 
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 20px;
+	border: none;
+  	cursor: pointer;
+  	border-radius: 7px;
+  	transition: transform .3s;
+  	color: black;
+}
+
+.boton-concurso:hover {
+	transform: scale(1.02);
+}
+
+
+.art-title {
+	color: #FFFFFF;
+	font-size: 30px;
+	font-family: 'Josefin Sans', sans-serif; 
+}
+
+.art-p {
+	margin-top: 10px;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+.envio-logo {
+	max-width: 200px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.text-envios {
+	margin-left: 5%;
+	width: 40%;
+	display: block;
+	float: left;
+}
+
+.text-envios-right {
+	margin-left: 5%;
+	width: 45%;
+	display: block;
+	float: left;
+}
+
+.envios-50 {
+	display: inline-block;
+	float: left;
+	width: 100%;
+}
+
+.logo-encargos {
+	max-width: 300px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 100px;
+}
+
+.col-40 {
+	float: left;
+	margin-left: 5%;
+	width: 35%;
+}
+
+.col-50 {
+	float: left;
+	margin-left: 5%;
+	width: 50%;
+}
+
+.col-45 {
+	float: left;
+	width: 45%;
+	margin-top: 10px;
+}
+
+.col-60 {
+	float: left;
+	margin-left: 10%;
+	width: 35%;
+}
+
+.text-index {
+	float: left;
+	display: block;
+	width: 35%;
+	margin-left: 5%;
+	margin-top: 50px;
+}
+
+.imgs-sally-container {
+	float: left;
+	display: block;
+	width: 55%;
+	margin-left: 4%;
+}
+
+.imgs-3col {
+	max-width: 250px;
+}
+
+.tipo-prod-seg {
+	margin-left: 15%;
+}
+
+
+.imgs-2col-clickeable {
+	width: 100%;
+	max-width: 300px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	transition: transform .2s;
+}
+
+.imgs-2col-clickeable:hover {
+	transform: scale(1.02);
+}
+
+.img-container {
+	float: left;
+	width: 50%;
+}
+
+.galerias-container {
+	margin-left: 5%;
+	margin-right: 5%;
+	width: 90%;
+	height: 300px;
+}
+
+.img-galerias-container {
+	float: left;
+	display: block;
+	width: 25%;
+}
+
+.img-galerias {
+	max-width: 300px;
+	border-radius: 10px;
+	box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.4);
+	transition: transform .3s;
+}
+
+.img-galerias:hover {
+	transform: scale(1.02);
+}
+
+
+/*-------------- INICIO MICROSITIO --------------*/
+
+
+.text-relevamiento-left {
+	width: 40%;
+	margin-left: 5%;
+	margin-right: 5%;
+	float: left;
+	display: block;
+}
+
+.text-relevamiento-right {
+	width: 45%;
+	margin-right: 5%;
+	float: left;
+	display: block;
+}
+
+.contenedor-text-relevamiento {
+	width: 100%;
+	height: 300px;
+}
+
+.img-galerias-container-3col {
+	float: left;
+	display: block;
+	width: 33%;
+}
+
+.galeria-fotos {
+	margin-left: 5%;
+}
+
+.galerias-container-diseno {
+	width: 95%;
+	height: 300px;
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+}
+
+.img-galerias-diseno {
+	max-width: 250px;
+	border-radius: 10px;
+	box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.4);
+	transition: transform .3s;
+}
+
+.img-galerias-diseno:hover {
+	transform: scale(1.02);
+}
+
+.text-manual-left {
+	width: 35%;
+	margin-left: 5%;
+	float: left;
+	display: block;
+}
+
+.imgs-4col {
+	float: left;
+	display: block;
+	width: 25%;
+	max-width: 150px;
+	margin-left: 3%;
+}
+
+.logos-container {
+	float: left;
+	display: block;
+	width: 50%;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+.cromatica-3col {
+	float: left;
+	display: block;
+	width: 33%;
+	text-align: center;
+}
+
+.imgs-cromatica {
+	max-width: 150px;
+}
+
+.hex-color {
+	font-size: 20px;
+	font-family: 'Josefin Sans', sans-serif;
+	margin-top: 10px;
+}
+
+.tipografia-2col-left {
+	float: left;
+	display: block;
+	width: 45%;
+	margin-left: 5%;
+}
+
+.tipografia-2col-right {
+	float: left;
+	display: block;
+	width: 40%;
+	margin-right: 5%;
+	margin-left: 5%;
+}
+
+.muestreo-josefin {
+	margin-top: 10px;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 30px;
+}
+
+.muestreo-ubuntu {
+	margin-top: 10px;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 30px;
+}
+
+.sitemap-container {
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+.img-sitemap {
+	max-width: 900px;
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+}

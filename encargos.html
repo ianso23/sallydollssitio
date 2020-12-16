@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Sally Dolls - Encargos</title>
+		<meta charset="utf-8"/> 
+		<link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+	</head>
+
+<body>
+	<Main id="main-encargos">
+		<header>
+			<a href="index.html"><img class="logo-header" src="img/sallydolls_logo.png"></a>
+			<nav>
+				<a class="nav-li" href="productos.html">
+					Productos
+				</a>
+				<a class="nav-li" href="#">
+					<div class="current">
+						Encargos
+					</div>
+				</a>
+				<a class="nav-li" href="envios.html">
+					Envíos
+				</a>
+			</nav>
+		</header>
+		<div class="banner">
+			<h1 class="main-title">Encargos</h1>
+			<h2 class="subtitle">¡Hace tu pedido!</h2>
+		</div>
+		<section id="sec-encargos">
+			<article>
+				<div class="col-40">
+					<h3 class="art-title">¿Cómo encargo?</h3>
+					<p class="art-p">Completá tus datos y detallá en la seccion <b>“Pedido”</b> el producto que deseas poniendo el nombre del mismo , los productos que tenemos a la venta podes verlos haciendo click <b><a href="productos.html">acá</a>.</b></p>
+					<p class="art-p">Si buscas algo mas personalizado podes detallarlo en la misma sección ¡nos vamos a poner en contacto para hacerlo!</p>
+					<p class="art-p">El precio de las muñecas se comunica via whatsapp dependiendo de la complejidad del pedido.</p>
+						<img class="logo-encargos" src="img/logo_encargos.png">
+				</div>
+				<div class="col-60">
+					<h3 class="art-title">¡Hacenos tu pedido!</h3>
+					<form method="post" action="mailto:e-mail@gmail.com">
+						<div class="first-form-part">
+							<label for="nombre-apellido">Nombre y Apellido</label> <br>
+							<input class="input-normal" type="text" id="nombre-apellido" name="fname-lname" required> 
+							<br>
+						</div>
+
+						<div class="form-5050-container">
+							<div class="form-part-50">
+								<label for="telefono">Teléfono</label> <br>
+								<input class="input-50" type="text" id="telefono" name="telefono" required>
+								<br>
+							</div>
+							<div class="form-part-50">
+								<label for="genero">Tipo de producto</label> <br>
+								<div class="form-selector">
+									<input class="tipo-prod" type="radio" id="muneca" name="tipo-prod" value="muneca">
+									<label for="muneca">Muñeca</label>
+									<input class="tipo-prod-seg" type="radio" id="accesorio" name="tipo-prod" value="accesorio">
+									<label for="accesorio">Accesorio</label>
+								</div>
+								<br>
+							</div>
+						</div>
+						<div class="form-part">				
+							<label for="email">E-Mail</label> <br>
+							<input class="input-normal" type="email" required>
+						</div>
+						<div class="form-part">				
+							<label for="email">Pedido</label> <br>
+							<textarea class="input-large" type="email" required></textarea>
+						</div>
+						<div class="form-part">	
+							<input class="boton-enviar" type="submit" value="Enviar">
+						</div>
+					</form>
+				</div>
+			</article>
+		</section>
+		<footer>
+			<div class="col-footer">
+				<a href="index.html"><img class="logo-footer" src="img/sallydolls_logobyn.png"></a>
+			</div>
+			<div class="col-footer">
+				<a href="micrositio/relevamiento.html"><h4 class="autor">Ian Marcos Solari</h4></a>
+			</div>
+			<div class="col-redes">
+				<a href="#"><img class="redes" src="img/redes_behance.png"></a>
+				<a href="#"><img class="redes" src="img/redes_instagram.png"></a>
+			</div>
+		</footer>
+	</Main>
+</body>
